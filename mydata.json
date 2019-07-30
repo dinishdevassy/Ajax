@@ -1,0 +1,31 @@
+[{
+    "name":"Dinish",
+    "dob": "02/03/1996",
+    "college":"asiet",
+    "mob":1235678940
+},
+{
+    "name":"vaishnav",
+    "dob": "06/07/1996",
+    "college":"Dist",
+    "mob":9876543210
+},
+{
+    "name":"Deril",
+    "dob": "05/01/1996",
+    "college":"Fisat",
+    "mob":9998887770
+},
+{
+    "name":"Nithin",
+    "dob": "09/10/1998",
+    "college":"cusat",
+    "mob":998877665544
+},
+{
+    "name":"kevin",
+    "dob": "22/03/1995",
+    "college":"MA",
+    "mob":9638527410
+}
+]
