@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CallBack</title>
+    
+</head>
+<body>
+    <div id="result">
+
+    </div>
+
+    <!-- <script>
+            function add(a,b,callback){
+                var c=a+b;
+                callback(c);
+            }
+            function display(res){
+                document.getElementById("result").innerHTML=res;
+            }
+    
+            add(10,20,display);
+        </script> -->
+        <script>
+        
+            function add(a,b,callback){
+                var c=a+b;
+                callback(c);
+            }
+            add(10,20,(res)=>{
+                document.getElementById("result").innerHTML=res;
+            })
+        </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonyous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Odd Or Even(CallBack)</title>
+</head>
+<body>
+    <br>
+    <table>
+        <tr>
+            <td>Number : </td>
+            <td><input type="text" name="" id="txt1"> </td>
+            <td> <input type="button" value="Submit" onclick="calc()"></td>
+        </tr>
+        <br>
+        <tr>
+            <td></td>
+            <td><p id="result"></p>
+            </td>
+        </tr>
+    </table>
+    
+   
+    <script>
+        function calc(){
+            var n=parseInt(document.getElementById("txt1").value);
+            even(n,(res)=>{
+            document.getElementById("result").innerHTML=res;
+        })
+        }
+       
+        function even(n,callback)
+        {
+            console.log(n);
+            var res="";
+            if(n%2==0)
+                res="Result : Even";
+            else if(n%2==1)
+                res="Result : Odd"
+            else
+                res="Result : Invalid Entry"
+            callback(res);
+        }
+        
+    </script>
+</body>
+</html>

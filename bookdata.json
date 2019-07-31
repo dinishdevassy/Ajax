@@ -1,22 +1,36 @@
 [{
     "name":"Harry Potter",
     "category": "Xyz",
-    "image":"",
+    "image":"./harrypotter.jpg",
     "price":1200,
     "Author":"jk Rowling"
 },
 {
     "name":"Macbeth",
     "category": "Abc",
-    "image":"",
+    "image":"./macbeth.webp",
     "price":800,
     "Author":"Shakespeare"
 },
 {
     "name":"Wings of Fire",
     "category": "AutoBiography",
-    "image":"",
+    "image":"./wings of fire.jpg",
     "price":1000,
     "Author":"APJ Abdulkalam"
+},
+{
+    "name":"Adujeevitham",
+    "category": "Novel",
+    "image":"./adujeevitham.jpg",
+    "price":500,
+    "Author":"Benyamin"
+},
+{
+    "name":"Playing it my way",
+    "category": "AutoBiography",
+    "image":"./playing it my way.jpg",
+    "price":500,
+    "Author":"Sachin"
 }
 ]
