@@ -1,0 +1,22 @@
+[{
+    "name":"Harry Potter",
+    "category": "Xyz",
+    "image":"",
+    "price":1200,
+    "Author":"jk Rowling"
+},
+{
+    "name":"Macbeth",
+    "category": "Abc",
+    "image":"",
+    "price":800,
+    "Author":"Shakespeare"
+},
+{
+    "name":"Wings of Fire",
+    "category": "AutoBiography",
+    "image":"",
+    "price":1000,
+    "Author":"APJ Abdulkalam"
+}
+]
